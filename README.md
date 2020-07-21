@@ -26,9 +26,9 @@
 - node >=12.17.0
 
 ## Tecnologias
-- ReactJS
 - Node
-- Typescript
+- Vue
+- Vuex
 
 ## Lints
 - Prettier
