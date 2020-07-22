@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary: #87f;
+  --secondary: #65d;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.btn {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0px 2px 8px rgba(30, 60, 90, 0.2);
+
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 30px;
+
+  font-size: 1rem;
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background: var(--secondary);
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="container">
     <h1>Home</h1>
   </div>
 </template>
@@ -10,4 +10,4 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped></style>
+<style scoped></style>
